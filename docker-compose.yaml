@@ -1,0 +1,25 @@
+services:
+  receiver_application:
+    build:
+      dockerfile: ReceiverApplication/Dockerfile
+    depends_on:
+      - sender_application
+      - rabbitmq
+  sender_application:
+    build:
+      context: .
+      dockerfile: SenderApplication/Dockerfile
+    ports:
+      - 5025:8080
+    depends_on:
+      - rabbitmq
+  rabbitmq:
+    image: rabbitmq:3.9-management
+    hostname: "rabbitmq"
+    ports:
+      - "5671:5671"
+      - "5672:5672"
+      - "25672:25672"
+      - "15671:15671"
+      - "15672:15672"
+    

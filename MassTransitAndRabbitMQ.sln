@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageClassLibrary", "MessageClassLibrary\MessageClassLibrary.csproj", "{9848943F-FA1D-43F3-AF08-0ABCAE757708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiverApplication", "ReceiverApplication\ReceiverApplication.csproj", "{81BE5822-8772-4E7D-9C83-02D8570235A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenderApplication", "SenderApplication\SenderApplication.csproj", "{A56BB2F3-1E71-4F5C-A6DD-7737D4BBC6FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9848943F-FA1D-43F3-AF08-0ABCAE757708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9848943F-FA1D-43F3-AF08-0ABCAE757708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9848943F-FA1D-43F3-AF08-0ABCAE757708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9848943F-FA1D-43F3-AF08-0ABCAE757708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81BE5822-8772-4E7D-9C83-02D8570235A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BE5822-8772-4E7D-9C83-02D8570235A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BE5822-8772-4E7D-9C83-02D8570235A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BE5822-8772-4E7D-9C83-02D8570235A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56BB2F3-1E71-4F5C-A6DD-7737D4BBC6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56BB2F3-1E71-4F5C-A6DD-7737D4BBC6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56BB2F3-1E71-4F5C-A6DD-7737D4BBC6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56BB2F3-1E71-4F5C-A6DD-7737D4BBC6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
